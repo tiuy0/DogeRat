@@ -1,0 +1,11 @@
+# Exported from Render on 2024-05-29T08:23:41Z
+services:
+- type: web
+  name: DogeRat
+  runtime: node
+  repo: https://github.com/tiuy0/DogeRat
+  plan: free
+  region: oregon
+  buildCommand: yarn install
+  startCommand: node server.js
+version: "1"
